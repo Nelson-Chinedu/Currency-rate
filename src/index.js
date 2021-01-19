@@ -9,6 +9,12 @@ const app = express();
 const port = process.env.PORT || 4000;
 
 
+app.get('/', (_req, res) => {
+  res.send({
+    message: 'Please use this endpoint /api/rates with query param',
+  })
+});
+
 app.use('/api', checkQueryParam, route);
 
 app.listen(port, () => {

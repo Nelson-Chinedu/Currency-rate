@@ -10,6 +10,7 @@
     "dev": "nodemon --exec babel-node src/index.js"
   },
   "dependencies": {
+    "@babel/node": "^7.12.10",
     "@babel/polyfill": "^7.12.1",
     "axios": "^0.21.1",
     "express": "^4.17.1",
