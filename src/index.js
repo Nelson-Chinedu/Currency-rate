@@ -1,5 +1,4 @@
-// import "regenerator-runtime/runtime";
-import '@babel/polyfill'
+import '@babel/polyfill';
 import express from 'express';
 import winstonEnvLogger from 'winston-env-logger';
 
