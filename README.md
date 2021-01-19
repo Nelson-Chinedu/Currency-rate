@@ -7,8 +7,11 @@
 - NodeJs/ExpressJs
 
 
-### Api Endpoint
-https://nelson-currency-rate.herokuapp.com/api/rates
+### Api
+https://nelson-currency-rate.herokuapp.com
+
+### Endpoint
+```GET``` ```/api/rates```
 
 
 ### How To Test Api Endpoint
